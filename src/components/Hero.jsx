@@ -5,7 +5,7 @@ import "../styles/Hero.css";
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section id="home" className="hero">
       <div className="container">
         <div className="content">
           <div className="hero-main">
@@ -13,7 +13,7 @@ export default function Hero() {
               <h1>Front-End React Developer</h1>
               <p>
                 Hi, I'm Chris Masoud. A passionate Front-end Developer based in
-                New York.
+                New York📍
               </p>
               <span>
                 <a

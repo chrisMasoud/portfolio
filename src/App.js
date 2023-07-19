@@ -1,10 +1,12 @@
+import React from "react";
+import About from "./components/About";
 import Hero from "./components/Hero";
-import logo from "./logo.svg";
 
 function App() {
   return (
     <div>
       <Hero />
+      <About />
     </div>
   );
 }

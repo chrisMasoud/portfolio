@@ -1,0 +1,46 @@
+.about-content {
+  grid-template-columns: 1fr;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-side {
+  position: relative;
+}
+
+.about-img {
+  height: auto;
+  width: 90%;
+  margin-bottom: 3.5rem;
+  border-radius: 1.7rem;
+}
+
+.text-side {
+  padding-right: 0;
+  margin: 0 auto;
+  max-width: 54rem;
+}
+
+.text-side h3 {
+  color: #147efb;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.text-side h4 {
+  color: #2d2e32;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.text-side p {
+  color: #767676;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
