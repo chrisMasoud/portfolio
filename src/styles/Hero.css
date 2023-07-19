@@ -1,0 +1,118 @@
+.hero {
+  height: auto;
+  padding: 11rem 0;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 3rem;
+  height: auto;
+  text-align: center;
+}
+
+.hero-img {
+  height: 28rem;
+  width: auto;
+  background-image: url(../img/ChrisPic.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  position: relative;
+  animation: morph 8s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.hero-text h1 {
+  font-size: 2.7rem;
+}
+
+.hero-text p {
+  color: #555;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.hero-text span {
+  display: flex;
+  gap: 1.6rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.fa-icon {
+  color: #2d2e32;
+  font-size: 2rem;
+}
+
+.fa-icon:hover {
+  color: blue;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  align-items: center;
+  bottom: 0;
+  color: #767676;
+  font-size: 1.5rem;
+  left: 0;
+}
+
+.skills p {
+  border-bottom: 2px solid rgba(45, 46, 50, 0.5);
+  border-right: none;
+  margin-bottom: 3rem;
+  margin-right: 0;
+  padding-bottom: 1rem;
+  padding-right: 0;
+  color: #2d2e32;
+  font-weight: 600;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  list-style: none;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.skills ul li {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 85px;
+  height: 85px;
+}
+
+.skills img {
+  height: 55px;
+}
