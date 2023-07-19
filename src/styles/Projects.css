@@ -1,3 +1,8 @@
+.projects {
+  background-color: #f9f9f9;
+  padding: 4.5rem 0;
+}
+
 .project-content {
   text-align: center;
   display: flex;
@@ -36,9 +41,8 @@
   background-color: #fff;
   border-radius: 1.4rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  height: auto;
+  height: 65rem;
   width: 100%;
-  max-width: 390px;
   box-sizing: border-box;
 }
 
@@ -52,7 +56,6 @@
   max-width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .project-text {

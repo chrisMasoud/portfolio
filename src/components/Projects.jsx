@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../img/SkateSpotter.png";
+import img from "../img/SkateSpotter.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "../styles/Projects.css";
@@ -14,7 +14,7 @@ export default function Projects() {
           <div className="projects-grid">
             <div className="project-card">
               <div className="project-img">
-                <img src={img} alt="SkateSpotter Image" />
+                <img src={img} alt="SkateSpotter Image" className="img" />
               </div>
               <div className="project-text">
                 <h3>SkateSpotter</h3>
