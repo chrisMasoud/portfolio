@@ -1,0 +1,33 @@
+footer {
+  background-color: #2d2e32;
+  padding: 3rem 0;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.footer h3 {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 2rem;
+}
+
+.fa-icon {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.fa-icon:hover {
+  color: #147efb;
+}
