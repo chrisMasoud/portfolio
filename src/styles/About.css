@@ -41,7 +41,7 @@
 .text-side {
   padding: 0 5rem;
 
-  @media (max-width: 400px) {
+  @media (max-width: 460px) {
     padding: 0 1rem;
   }
 
