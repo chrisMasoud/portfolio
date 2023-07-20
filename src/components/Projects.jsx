@@ -10,14 +10,14 @@ export default function Projects() {
       <div className="container">
         <div className="project-content">
           <p>Projects</p>
-          <h3>Each project is a unique piece of development</h3>
+          <h3>Each project is a unique piece of development 🧩</h3>
           <div className="projects-grid">
             <div className="project-card">
               <div className="project-img">
                 <img src={img} alt="SkateSpotter Image" className="img" />
               </div>
               <div className="project-text">
-                <h3>SkateSpotter</h3>
+                <h3>SkateSpotter🛹</h3>
                 <p>
                   SkateSpotter is a Full Stack Web App that lets skateboarders
                   find and share local street skate spots. The website provides

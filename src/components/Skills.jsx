@@ -8,7 +8,7 @@ export default function Skills() {
         <div className="skills-content">
           <div className="skills-title">
             <p>Skills</p>
-            <h3>My Favorite Technologies</h3>
+            <h3>My Favorite Technologies💻</h3>
           </div>
           <div className="skills-icons">
             <div className="skills-icon-box">

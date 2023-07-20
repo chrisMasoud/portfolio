@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="contact-content">
           <div className="contact-title">
             <p>Contact</p>
-            <h3>Don't be Shy! Reach out!</h3>
+            <h3>Don't be Shy! Reach out!👇</h3>
           </div>
           <div className="contact-icons">
             <div className="contact-icon-box">
