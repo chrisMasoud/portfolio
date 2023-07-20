@@ -11,6 +11,10 @@ footer {
   justify-content: center;
   text-align: center;
   gap: 1rem;
+
+  @media (min-width: 900px) {
+    justify-content: space-between;
+  }
 }
 
 .footer h3 {

@@ -9,7 +9,9 @@
 }
 
 .contact-title {
-  text-align: center;
+  @media (max-width: 900px) {
+    text-align: center;
+  }
 }
 
 .contact-title p {
@@ -29,17 +31,23 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 6rem;
-  justify-content: center;
-  text-align: center;
   gap: 5rem;
-  flex-direction: column;
+
+  @media (max-width: 900px) {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
 }
 
 .contact-icon-box {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  flex-direction: column;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 }
 
 .contact-icon-box span {

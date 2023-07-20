@@ -24,8 +24,8 @@
 }
 
 .about-img {
-  height: 35rem;
-  width: 41rem;
+  height: 30rem;
+  width: 35rem;
   border-radius: 1.4rem;
 
   @media (max-width: 460px) {

@@ -8,7 +8,7 @@ export default function Footer() {
     <footer>
       <div className="container">
         <div className="footer">
-          <h3>Copyright © 2023. All rights reserved.</h3>
+          <h3>Copyright © 2023. All rights are reserved.</h3>
           <div className="footer-socials">
             <a
               aria-label="linkedin"
