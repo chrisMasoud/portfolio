@@ -1,5 +1,5 @@
 .contact {
-  padding: 10rem 0;
+  padding: 8rem 0;
   background-color: #f9f9f9;
 }
 
@@ -70,12 +70,12 @@
 
 .contact-info h3 {
   color: #2d2e32;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 
 .contact-info p {
   color: #767676;
   cursor: pointer;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }

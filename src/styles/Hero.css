@@ -67,7 +67,7 @@
 }
 
 .hero-text h1 {
-  font-size: 5.5rem;
+  font-size: 4rem;
   color: #2d2e32;
   line-height: 1.2;
   margin-bottom: 2rem;
@@ -80,7 +80,7 @@
 
 .hero-text p {
   color: #555;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.6;
   font-family: Mulish, sans-serif;
@@ -166,10 +166,10 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
-  width: 85px;
-  height: 85px;
+  width: 5.5rem;
+  height: 5.5rem;
 }
 
 .skills img {
-  height: 55px;
+  height: 3rem;
 }

@@ -1,5 +1,5 @@
 .skills-section {
-  padding: 10rem 0;
+  padding: 8rem 0;
   background-color: #fff;
 }
 
@@ -69,12 +69,12 @@
 
 .skills-info h3 {
   color: #2d2e32;
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 .skills-info li {
   color: #767676;
   cursor: pointer;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   list-style: none;
 }
