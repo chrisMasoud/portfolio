@@ -1,5 +1,5 @@
 .about {
-  padding: 15rem 0;
+  padding: 15rem 5rem;
   background-color: #fff;
 
   @media (max-width: 1020px) {

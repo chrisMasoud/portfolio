@@ -143,10 +143,12 @@
   font-size: 1.2rem;
   left: 0;
   padding-bottom: 8rem;
+  padding-left: 8rem;
 
   @media (max-width: 900px) {
     position: static;
     flex-direction: column;
+    padding-left: 0;
   }
 }
 
