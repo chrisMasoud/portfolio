@@ -61,7 +61,9 @@ export default function Navbar() {
         </div>
 
         <div className="navbar">
-          <h3 className="logo">Chris Masoud</h3>
+          <a href="#home">
+            <h3 className="logo">Chris Masoud</h3>
+          </a>
           <ul className="navbar-links">
             <li>
               <a href="#home">Home</a>

@@ -83,7 +83,7 @@
 }
 
 .mobile-navbar-close:hover {
-  color: #147efb;
+  color: red;
 }
 
 .mobile-navbar-links {
@@ -113,4 +113,8 @@
 .logo {
   color: #2d2e32;
   cursor: pointer;
+}
+
+.navbar a {
+  text-decoration: none;
 }
