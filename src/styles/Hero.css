@@ -1,3 +1,20 @@
+.content {
+  display: flex;
+  gap: 10rem;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  @media (max-width: 900px) {
+    gap: 3rem;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding-top: 10rem;
+  }
+}
+
 .hero {
   background-color: #f9f9f9;
   display: flex;
@@ -7,7 +24,7 @@
   height: 100%;
 
   @media (max-width: 900px) {
-    height: 75rem;
+    height: auto;
     width: 100%;
   }
 }
@@ -41,9 +58,9 @@
   animation: morph 8s ease-in-out infinite;
   transition: all 1s ease-in-out;
 
-  @media (max-width: 900px) {
-    height: 28rem;
-    width: 28rem;
+  @media (max-width: 500px) {
+    height: 20rem;
+    width: 20rem;
   }
 }
 
@@ -74,7 +91,7 @@
   margin-top: 2rem;
 
   @media (max-width: 500px) {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -107,6 +124,10 @@
 .fa-icon {
   color: #2d2e32;
   font-size: 2rem;
+
+  @media (max-width: 900px) {
+    font-size: 3.5rem;
+  }
 }
 
 .fa-icon:hover {
@@ -119,9 +140,9 @@
   align-items: center;
   bottom: 0;
   color: #767676;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   left: 0;
-  padding-bottom: 6rem;
+  padding-bottom: 8rem;
 
   @media (max-width: 900px) {
     position: static;
@@ -131,7 +152,7 @@
 
 .skills p {
   border-right: 2px solid rgba(45, 46, 50, 0.5);
-  margin-right: 7rem;
+  margin-right: 4rem;
   padding-right: 2rem;
   color: #2d2e32;
   font-family: Mulish, sans-serif;
@@ -166,10 +187,10 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 .skills img {
-  height: 3rem;
+  height: 2rem;
 }
