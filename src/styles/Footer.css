@@ -23,11 +23,11 @@ footer {
   gap: 2rem;
 }
 
-.fa-icon {
+footer .fa-icon {
   color: #fff;
   font-size: 2rem;
 }
 
-.fa-icon:hover {
+footer .fa-icon:hover {
   color: #147efb;
 }
