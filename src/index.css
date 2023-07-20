@@ -12,15 +12,28 @@ code {
 }
 
 .container {
-  padding: 0 1.7rem;
+  padding: 0 4rem;
+  margin: 0 auto;
+  width: 100%;
+
+  @media (max-width: 460px) {
+    padding: 0 1.7rem;
+  }
 }
 
 .content {
   display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  height: auto;
-  text-align: center;
+  gap: 10rem;
+  height: 65rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  @media (max-width: 900px) {
+    gap: 3rem;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 * {

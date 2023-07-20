@@ -1,24 +1,36 @@
 .hero {
-  height: auto;
-  padding: 11rem 0;
   background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
   position: relative;
   width: 100%;
+  height: 100%;
+
+  @media (max-width: 900px) {
+    height: 75rem;
+    width: 100%;
+  }
 }
 
 .hero-main {
   display: flex;
-  flex-direction: column-reverse;
-  gap: 3rem;
-  height: auto;
-  text-align: center;
+  gap: 10rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+
+  @media (max-width: 900px) {
+    gap: 3rem;
+    flex-direction: column-reverse;
+    height: auto;
+    text-align: center;
+  }
 }
 
 .hero-img {
-  height: 28rem;
-  width: auto;
+  height: 35rem;
+  width: 35rem;
   background-image: url(../img/ChrisPic.jpg);
   background-position: 50%;
   background-repeat: no-repeat;
@@ -28,6 +40,11 @@
   position: relative;
   animation: morph 8s ease-in-out infinite;
   transition: all 1s ease-in-out;
+
+  @media (max-width: 900px) {
+    height: 28rem;
+    width: 28rem;
+  }
 }
 
 @keyframes morph {
@@ -42,24 +59,49 @@
   }
 }
 
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  position: relative;
+}
+
 .hero-text h1 {
-  font-size: 3.5rem;
+  font-size: 5.5rem;
+  color: #2d2e32;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+  @media (max-width: 500px) {
+    font-size: 4rem;
+  }
 }
 
 .hero-text p {
   color: #555;
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.4;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6;
   font-family: Mulish, sans-serif;
+
+  @media (max-width: 900px) {
+    margin-bottom: 5rem;
+  }
 }
 
 .hero-text span {
   display: flex;
-  gap: 1.6rem;
-  justify-content: center;
-  margin-bottom: 4rem;
-  margin-top: 2rem;
+  gap: 1.3rem;
+  cursor: pointer;
+  margin: 2.5rem 0;
+
+  @media (max-width: 900px) {
+    gap: 1.6rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+    margin-top: -2rem;
+  }
 }
 
 .fa-icon {
@@ -73,35 +115,47 @@
 
 .skills {
   display: flex;
-  flex-direction: column;
-  position: static;
+  position: absolute;
   align-items: center;
   bottom: 0;
   color: #767676;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   left: 0;
+  padding-bottom: 5rem;
+
+  @media (max-width: 900px) {
+    position: static;
+    flex-direction: column;
+  }
 }
 
 .skills p {
-  border-bottom: 2px solid rgba(45, 46, 50, 0.5);
-  border-right: none;
-  margin-bottom: 3rem;
-  margin-right: 0;
-  padding-bottom: 1rem;
-  padding-right: 0;
+  border-right: 2px solid rgba(45, 46, 50, 0.5);
+  margin-right: 7rem;
+  padding-right: 2rem;
   color: #2d2e32;
-  font-weight: 500;
   font-family: Mulish, sans-serif;
-  font-size: 1.2rem;
+  font-weight: 600;
+
+  @media (max-width: 900px) {
+    border-bottom: 2px solid rgba(45, 46, 50, 0.5);
+    border-right: none;
+    margin-bottom: 3rem;
+    margin-right: 0;
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
 }
 
 .skills ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2.5rem;
   list-style: none;
-  justify-content: center;
-  padding-left: 0;
+
+  @media (max-width: 900px) {
+    justify-content: center;
+  }
 }
 
 .skills ul li {
