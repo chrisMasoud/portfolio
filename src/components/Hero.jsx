@@ -10,10 +10,10 @@ export default function Hero() {
         <div className="content">
           <div className="hero-main">
             <div className="hero-text">
-              <h1>Front-End React Developer👋</h1>
+              <h1>Mobile iOS Developer👋</h1>
               <p>
-                Hi, I'm Chris Masoud. A passionate Front-end Developer based in
-                New York📍
+                Hi, I'm Chris Masoud. A passionate iOS Developer based in New
+                York📍
               </p>
               <span>
                 <a

@@ -76,7 +76,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   height: auto;
-  width: 35rem;
+  width: 42rem;
   position: relative;
 
   @media (max-width: 650px) {

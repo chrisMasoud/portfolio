@@ -13,19 +13,20 @@ export default function About() {
           <div className="text-side">
             <h3>About Me</h3>
             <h4>
-              A dedicated Front-end Developer
+              A dedicated iOS Developer
               <br />
               based in New York, USA.📍
             </h4>
             <p>
-              As an experienced Front-End Developer, I possess an impressive
-              arsenal of skills in HTML, CSS, JavaScript, React, and Node.js. I
-              excel in designing and developing responsive websites that offer a
-              smooth user experience. My expertise lies in crafting dynamic,
-              engaging interfaces through writing clean and optimized code and
-              utilizing cutting-edge development tools and techniques. I am also
-              a team player who thrives in collaborating with cross-functional
-              teams to produce outstanding web applications.
+              As an experienced iOS Developer, I possess an impressive arsenal
+              of skills in Swift and SwiftUI; as well as HTML, CSS, JavaScript,
+              React, and Node.js. I excel in designing and developing responsive
+              mobile applications that offer a smooth user experience. My
+              expertise lies in crafting dynamic, engaging interfaces through
+              writing clean and optimized code and utilizing cutting-edge
+              development tools and techniques. I am also a team player who
+              thrives in collaborating with cross-functional teams to produce
+              outstanding mobile and web applications.
             </p>
           </div>
         </div>

@@ -33,6 +33,7 @@ export default function Skills() {
               <div className="skills-info">
                 <h3>Front End</h3>
                 <ul>
+                  <li>SwiftUI</li>
                   <li>React</li>
                   <li>JavaScript</li>
                   <li>HTML</li>
@@ -40,7 +41,6 @@ export default function Skills() {
                   <li>Next.js</li>
                   <li>Angular</li>
                   <li>jQuery</li>
-                  <li>SwiftUI</li>
                 </ul>
               </div>
             </div>
@@ -66,9 +66,9 @@ export default function Skills() {
               <div className="skills-info">
                 <h3>Back End</h3>
                 <ul>
+                  <li>Swift</li>
                   <li>Node.js</li>
                   <li>Express.js</li>
-                  <li>Swift</li>
                   <li>Kotlin</li>
                   <li>Java</li>
                   <li>PHP</li>
@@ -100,6 +100,7 @@ export default function Skills() {
                 <h3>Developer Tools</h3>
                 <ul>
                   <li>AWS</li>
+                  <li>Xcode</li>
                   <li>Git</li>
                   <li>Vercel</li>
                   <li>Agile Methodology</li>
