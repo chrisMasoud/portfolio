@@ -50,7 +50,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-            <div className="project-card-reversed">
+            <div className="project-card">
               <div className="project-img">
                 <img src={img} alt="SkateSpotter Image" className="img" />
               </div>
