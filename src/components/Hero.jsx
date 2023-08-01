@@ -50,8 +50,20 @@ export default function Hero() {
               <ul>
                 <li>
                   <img
-                    alt="HTML5 logo and wordmark"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
+                    src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+                    alt="Apple logo"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://www.cdnlogo.com/logos/s/66/swift.svg"
+                    alt="Swift logo"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"
+                    alt="React logo"
                   />
                 </li>
                 <li>
@@ -64,18 +76,6 @@ export default function Hero() {
                   <img
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png"
                     alt="JavaScript logo"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"
-                    alt="React logo"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Font_Awesome_5_brands_node-js.svg/512px-Font_Awesome_5_brands_node-js.svg.png"
-                    alt="Node.js logo"
                   />
                 </li>
               </ul>

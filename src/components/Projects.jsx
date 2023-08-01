@@ -37,7 +37,7 @@ export default function Projects() {
                 <div className="links">
                   <a
                     target="_blank"
-                    href="https://github.com/chrisMasoud/SkateSpotter"
+                    href="https://github.com/chrisMasoud/SkateSpotter-iOS"
                     rel="noreferrer"
                   >
                     Code{" "}
@@ -50,7 +50,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-            <div className="project-card">
+            <div className="project-card-reversed">
               <div className="project-img">
                 <img src={img} alt="SkateSpotter Image" className="img" />
               </div>
