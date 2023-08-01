@@ -68,14 +68,14 @@ export default function Hero() {
                 </li>
                 <li>
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/512px-CSS3_logo_and_wordmark.svg.png"
-                    alt="CSS3 logo and wordmark"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png"
+                    alt="JavaScript logo"
                   />
                 </li>
                 <li>
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png"
-                    alt="JavaScript logo"
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
+                    alt="CSS3 logo"
                   />
                 </li>
               </ul>
