@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../img/SkateSpotter.jpeg";
 import img2 from "../img/SkateSpotter-iOS.jpg";
+import img3 from "../img/ExpenseTracker.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "../styles/Projects.css";
@@ -13,6 +14,39 @@ export default function Projects() {
           <p>Projects</p>
           <h3>Each project is a unique piece of development 🧩</h3>
           <div className="projects-grid">
+            <div className="project-card">
+              <div className="project-img">
+                <img src={img3} alt="SkateSpotter Image" className="img" />
+              </div>
+              <div className="project-text">
+                <h3>Expense Tracker💰</h3>
+                <p>
+                  Expense Tracker is an iOS app that lets users track their
+                  income and expenses. The app provides an interface for viewing
+                  and adding transactions, as well as charts to help users
+                  visualize their spending habits.
+                </p>
+                <div className="stack">
+                  <p>SwiftUI</p>
+                  <p>Core Data</p>
+                  <p>Swift Charts</p>
+                </div>
+                <div className="links">
+                  <a
+                    target="_blank"
+                    href="https://github.com/chrisMasoud/ExpenseTracker"
+                    rel="noreferrer"
+                  >
+                    Code{" "}
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      size="2x"
+                      className="fa-icon"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
             <div className="project-card">
               <div className="project-img">
                 <img
@@ -31,7 +65,7 @@ export default function Projects() {
                 </p>
                 <div className="stack">
                   <p>SwiftUI</p>
-                  <p>Xcode</p>
+                  <p>MapKit</p>
                   <p>Firebase</p>
                 </div>
                 <div className="links">
