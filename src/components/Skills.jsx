@@ -33,8 +33,9 @@ export default function Skills() {
               <div className="skills-info">
                 <h3>Front End</h3>
                 <ul>
-                  <li>SwiftUI</li>
                   <li>React</li>
+                  <li>React Native</li>
+                  <li>SwiftUI</li>
                   <li>JavaScript</li>
                   <li>HTML</li>
                   <li>CSS</li>
